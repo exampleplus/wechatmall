@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Swiper demo</title>
+  <title>珮钧商城</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
   <!-- Link Swiper's CSS -->
@@ -224,7 +224,7 @@
  		<div class="custom-combox">
  			<div class="custom-notice">
  				<i class="icon-notice"></i> 
- 				<marquee behavior="scroll" contenteditable="true" scrollamount="3" width="100%" onmouseover="this.stop();" onmouseout="this.start();" class="noticeText">产品使用方法：早晚用温开水冲泡即饮。客服咨询热线：15856252257</marquee>
+ 				<marquee behavior="scroll" contenteditable="true" scrollamount="3" width="100%" class="noticeText">产品使用方法：早晚用温开水冲泡即饮。客服咨询热线：15856252257</marquee>
  				<div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;">
  					
  				</div>
@@ -243,6 +243,7 @@
        autoplay: {
       	delay:2000
       },
+      autoplayDisableOnInteraction : false,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
@@ -256,6 +257,7 @@
       slidesPerView: 1,
       spaceBetween: 30,
       loop: false,//是否无缝滚动循环播放
+       autoplayDisableOnInteraction : false,
       pagination: {
         el: '.swiper-pagination',
         clickable: true,
